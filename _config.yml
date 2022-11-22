@@ -1,0 +1,4 @@
+coursename: "CS 360"
+baseurl: "/cs360-spring2023"
+markdown: kramdown
+highlighter: rouge
