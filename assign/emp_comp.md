@@ -40,9 +40,9 @@ The report should include *meaningful* plots (e.g. using Excel) of all the data 
 * Behavior based on range - 10%
 * Asymptotic fit for small *n* - 10%
 * Comparison for small range, small *n* - 10%
-* Comparison for large range, small *n* - 10%* 
-* Comparison for small range, large *n* - 10%* 
-* Comparison for large range, large *n* - 10%* 
+* Comparison for large range, small *n* - 10%
+* Comparison for small range, large *n* - 10% 
+* Comparison for large range, large *n* - 10% 
 * Comparison for n lg n, small range - 5%
 * Comparison for n lg n, large range - 5%
 * Summary - 10%
@@ -50,4 +50,4 @@ The report should include *meaningful* plots (e.g. using Excel) of all the data 
 * Table of empirical data - 3%
 * Writing quality - 12%
 
-**Upload** a .pdf file to Canvas by **Friday, March 18 at 11:59pm**
+**Upload** a .pdf file to Canvas by **Friday, March 17 at 11:59pm**
