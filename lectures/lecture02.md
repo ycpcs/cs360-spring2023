@@ -68,7 +68,7 @@ which will essentially "count" whether or not the inner loop body executes for i
 
 The run time for insertion sort can then be written as
 
-> ![image](images/lecture02/insertformula1.png)
+> ![image](images/lecture02/insertgeneral.png)
 
 where the *c*<sub>i</sub>'s are the cost of each line (noting that *c*<sub>3</sub> = 0 since line 3 is a comment).
 
@@ -102,7 +102,7 @@ and
 
 Thus the total run time becomes
 
-> ![image](images/lecture02/insertformula3.png)
+> ![image](images/lecture02/insertworst.png)
 
 which is a *quadratic* function of *n*.
 
