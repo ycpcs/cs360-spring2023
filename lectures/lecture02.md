@@ -54,7 +54,15 @@ For all analysis in this course we assume that the algorithm will be implemented
 
 We will define the *input size*, *n*, to typically be the number of elements in the input set (but it could represent the number of bits in a representation or other appropriate enumeration). The *running time* will then be the total number of execution steps as a function of *n* the algorithm takes to complete. We will assume that each line of pseudocode executes in a *constant* amount of time (although that amount may vary from line to line). Thus we multiply the (constant) time each line takes to execute by the number of times the line executes to find a cost per line and then sum the costs of all lines to give the *run time* of the algorithm.
 
-For insertion sort we will define a variable *t*<sub>j</sub> to be the number of times the while loop test is performed (which will be one more time than the body of the loop is executed) where *j* =2,3,..., *n* with *n* = *A.length*.
+For the while loop in insertion sort, we will define an **indicator** variable *w*<sub>ji</sub> defined as
+
+> ![image](images/lecture02/whleindicator.png)
+
+which will essentially "count" whether or not the inner loop body executes for inner loop iteration *i* and outer loop iteration *j*. Thus, the total number of times the while loop will execute is given by 
+
+> ![image](images/lecture02/whlesum.png)
+
+**Note:** The actual while statement on line 5 will execute one more time than the while loop body *for each* iteration of the outer loop.
 
 *General Run Time*
 
@@ -66,23 +74,33 @@ where the *c*<sub>i</sub>'s are the cost of each line (noting that *c*<sub>3</su
 
 *Case 1: Best Case*
 
-The best case for insertion sort is when the input array is already sorted, in which case the while loop never executes (but the condition must be checked once). Thus *t*<sub>j</sub> = 1 for all *j* =2,3,... *n* (i.e. *t*<sub>j</sub>-1 = 0) and the run time reduces to:
+The best case for insertion sort is when the input array is already sorted, in which case the while loop body *never* executes. Thus *w*<sub>ji</sub> = 0 for all *i* and *j* giving
 
-> ![image](images/lecture02/insertformula2.png)
+> ![image](images/lecture02/bestsum1.png)
+
+i.e. the while condition (line 5) executes *exactly once* for each iteration of the outer loop, and
+
+> ![image](images/lecture02/bestsum2.png)
+
+i.e. the statements in the while body (lines 6 and 7) *never* execute.
+
+Thus the total run time reduces to:
+
+> ![image](images/lecture02/insertbest.png)
 
 which is a *linear* function of *n*.
 
 *Case 2: Worst Case*
 
-The worst case for insertion sort is when the input array is in reverse (decreasing) sorted order, in which case the while loop executes the maximum number of times. Thus *t*<sub>j</sub> = *j* for *j* =2,3,..., *n*. Using Appendix A of CLRS, the summation terms can be reduced as follows:
+The worst case for insertion sort is when the input array is in reverse (decreasing) sorted order, in which case the while loop executes the maximum number of times. Thus *w*<sub>ji</sub> = *1* for all *i* and *j*. Using Appendix A of CLRS, the summation terms can be reduced as follows:
 
-> ![image](images/lecture02/sumformula1.png)
+> ![image](images/lecture02/worstsum1.png)
 
 and
 
-> ![image](images/lecture02/sumformula2.png)
+> ![image](images/lecture02/worstsum2.png)
 
-Thus the run time becomes
+Thus the total run time becomes
 
 > ![image](images/lecture02/insertformula3.png)
 
@@ -92,7 +110,7 @@ Usually we are only concerned with the *worst case* behavior for several reasons
 
 > -   it gives an upper bound on the run time
 > -   it occurs often for certain problems, e.g. searching for a non-existant element
-> -   average case is usually close to the worst case, e.g. for insertion sort average case has *t*<sub>j</sub> = *j*/2 which still gives quadratic run time (only with different constants)
+> -   average case is usually close to the worst case, e.g. for insertion sort average case has *w*<sub>ji</sub> = 1 roughly *half* of the iterations which still gives quadratic run time (only with different constants)
 
 *Asymptotic Analysis*
 
