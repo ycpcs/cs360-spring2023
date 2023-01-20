@@ -56,11 +56,11 @@ We will define the *input size*, *n*, to typically be the number of elements in 
 
 For the while loop in insertion sort, we will define an **indicator** variable *w*<sub>ji</sub> defined as
 
-> ![image](images/lecture02/whleindicator.png)
+> ![image](images/lecture02/whileindicator.png)
 
 which will essentially "count" whether or not the inner loop body executes for inner loop iteration *i* and outer loop iteration *j*. Thus, the total number of times the while loop will execute is given by 
 
-> ![image](images/lecture02/whlesum.png)
+> ![image](images/lecture02/whilesum.png)
 
 **Note:** The actual while statement on line 5 will execute one more time than the while loop body *for each* iteration of the outer loop.
 
@@ -110,7 +110,7 @@ Usually we are only concerned with the *worst case* behavior for several reasons
 
 > -   it gives an upper bound on the run time
 > -   it occurs often for certain problems, e.g. searching for a non-existant element
-> -   average case is usually close to the worst case, e.g. for insertion sort average case has *w*<sub>ji</sub> = 1 roughly *half* of the iterations which still gives quadratic run time (only with different constants)
+> -   average case is usually close to the worst case, e.g. for insertion sort average case has *w*<sub>ji</sub> = 1 roughly *half* of the maximum number of iterations for the while loop which still gives quadratic run time (only with different constants)
 
 *Asymptotic Analysis*
 
