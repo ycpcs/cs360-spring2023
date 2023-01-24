@@ -14,7 +14,7 @@ Instructor:
 - 102,103 - Prof. Dean Zeller, <dzeller@ycp.edu>
 
 Office Hours:
-- **Dr. Babcock** - KEC 117A: TBD
+- **Dr. Babcock** - KEC 117A: M 1:30-3:00pm, T 2:00-3:00pm, W 10:00am-12:00pm, R 10:30-11:30am, or by appointment
 
 - **Prof. Zeller** - KEC137: TBD
 
