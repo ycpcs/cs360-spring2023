@@ -16,7 +16,7 @@ Instructor:
 Office Hours:
 - **Dr. Babcock** - KEC 117A: M 1:30-3:00pm, T 2:00-3:00pm, W 10:00am-12:00pm, R 10:30-11:30am, or by appointment
 
-- **Prof. Zeller** - KEC137: TBD
+- **Prof. Zeller** - KEC136: MWF 2:00-3:00pm, TR 10:00am-12:00pm, or by appointment
 
  Section  | Days |  Time       | Room    | Final Presentations
  -------- | ---- |  ---------- | ------- | ----------
