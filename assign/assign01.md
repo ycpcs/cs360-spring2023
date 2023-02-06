@@ -26,7 +26,7 @@ Insertion sort implementation.
 > >
 > > (c) - What must be true both **before** and **after** the *outer* loop executes (consider what the outer loop does)? Remember you must show it holds for *initialization*, *maintenance*, and *termination* conditions.
 > >
-> > (d) - Note this version of bubble-sort uses *fixed* iteration loops, i.e. no **while** statements.
+> > (d) - Note this version of bubble-sort uses *fixed* iteration loops, i.e. no **while** statements. Construct a table as shown in class to determine the *worst-case* runtime.
 
 **Implementation**
 
