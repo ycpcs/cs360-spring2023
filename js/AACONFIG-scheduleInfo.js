@@ -96,11 +96,11 @@ courseInfo.classPeriods = [
 		reading: "Appendix B.4",
 	},
 	{
-		topic: new SixTopic("Lecture 16: Breadth-First Search", "lectures/lecture16.html", "BFS Pseudocode", "handouts/lecture16-bfsalg.pdf", "BFS Example", "handouts/lecture16-bfsex.pdf", "BFS Practice Activity", "handouts/lecture16-bfsact.pdf", "BFS Solution", "handouts/lecture16-bfsact-sol.pdf", "Assignment 4 Due", "assign/assign04.html"),
+		topic: new FiveTopic("Lecture 16: Breadth-First Search", "lectures/lecture16.html", "BFS Pseudocode", "handouts/lecture16-bfsalg.pdf", "BFS Example", "handouts/lecture16-bfsex.pdf", "BFS Practice Activity", "handouts/lecture16-bfsact.pdf", "BFS Solution", "handouts/lecture16-bfsact-sol.pdf"),
 		reading: "Ch. 22.2",
 	},
 	{
-		topic: new FiveTopic("Lecture 17: Depth-First Search", "lectures/lecture17.html", "DFS Pseudocode", "handouts/lecture17-dfsalg.pdf", "DFS Example", "handouts/lecture17-dfsex.pdf", "DFS Practice Activity", "handouts/lecture17-dfsact.pdf", "DFS Solution", "handouts/lecture17-dfsact-sol.pdf"),
+		topic: new SixTopic("Lecture 17: Depth-First Search", "lectures/lecture17.html", "DFS Pseudocode", "handouts/lecture17-dfsalg.pdf", "DFS Example", "handouts/lecture17-dfsex.pdf", "DFS Practice Activity", "handouts/lecture17-dfsact.pdf", "DFS Solution", "handouts/lecture17-dfsact-sol.pdf", "Assignment 4 Due", "assign/assign04.html"),
 		reading: "Ch. 22.3"
 	},
 	{
