@@ -131,11 +131,11 @@ courseInfo.classPeriods = [
 		reading: "Ch. 24.3",
 	},
 	{
-		topic: new DoubleTopic("Lecture 24: Maximal Flow", "lectures/lecture24.html", "Assignment 6 Due", "assign/assign06.html"),
+		topic: new Topic("Lecture 24: Maximal Flow", "lectures/lecture24.html", "Assignment 6 Due", "assign/assign06.html"),
 		reading: "Ch. 26.1",
 	},
 	{
-		topic: new FiveTopic("Lecture 25: Maximal Flow- Ford-Fulkerson", "lectures/lecture25.html", "Ford-Fulkerson Pseudocode", "handouts/lecture25-FordFulkersonalg.pdf", "Ford-Fulkerson (Edmonds-Karp) Example", "handouts/lecture25-FordFulkersonex.pdf", "Max Flow Practice Activity", "handouts/lecture25-maxflowact.pdf", "Max Flow Solution", "handouts/lecture25-maxflowactsol.pdf"),
+		topic: new SixTopic("Lecture 25: Maximal Flow- Ford-Fulkerson", "lectures/lecture25.html", "Ford-Fulkerson Pseudocode", "handouts/lecture25-FordFulkersonalg.pdf", "Ford-Fulkerson (Edmonds-Karp) Example", "handouts/lecture25-FordFulkersonex.pdf", "Max Flow Practice Activity", "handouts/lecture25-maxflowact.pdf", "Max Flow Solution", "handouts/lecture25-maxflowactsol.pdf", "Assignment 6 Due", "assign/assign06.html"),
 		reading: "Ch. 26.2",
 	},
 	{

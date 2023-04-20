@@ -29,7 +29,7 @@ Welcome to the website for CS 360, Analysis of Algorithms, at York College.  All
 * **Mar 29** - [Assignment 5](assign/assign05.html) Due
 * **Mar 31 - EXAM III. Take home due Wed, Apr 5.** Upload a **SINGLE** pdf to Canvas by 11:59pm
 * **Apr 7, 10 - NO CLASS - SPRING BREAK**
-* **Apr 17** - [Assignment 6](assign/assign06.html) Due
+* **Apr 19** - [Assignment 6](assign/assign06.html) Due
 * **Apr 26** - [Assignment 7](assign/assign07.html) Due
 * **Apr 28 - EXAM IV. Take home due Fri, May 5.** Upload a **SINGLE** pdf to Canvas by 11:59pm
 * **May 8, 10 - Final Project Presentations**
