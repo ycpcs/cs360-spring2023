@@ -18,5 +18,5 @@ This page links to assignment descriptions.
 > Mar 24   | [Assignment 4](../assign/assign04.html)                  | [Assignment 4 Solutions](../assign/sol/assign04sol.pdf) |
 > Mar 29   | [Assignment 5](../assign/assign05.html)                  | [Assignment 5 Solutions](../assign/sol/assign05sol.pdf) |
 > Apr 19   | [Assignment 6](../assign/assign06.html)                  | [Assignment 6 Solutions](../assign/sol/assign06sol.pdf) |
-> Apr 26   | [Assignment 7](../assign/assign07.html)                  |  |
+> Apr 26   | [Assignment 7](../assign/assign07.html)                  | [Assignment 7 Solutions](../assign/sol/assign07sol.pdf) |
 > May 10   | [Final Project](../assign/finalproj.html)                | **Upload .pdf to Canvas** |
